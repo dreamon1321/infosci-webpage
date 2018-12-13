@@ -1,0 +1,56 @@
+body
+{
+  background-color: #81D8D0;
+  font-family: "Century Gothic", "Verdana", serif;
+}
+
+nav
+{
+  text-align: center;
+}
+
+h1
+{
+  text-align: center;
+  color: maroon;
+}
+
+h2
+{
+  color: indigo;
+}
+
+div table
+{
+  width: 1220px;
+  border: 5px solid red;
+  border-style: dotted;
+}
+
+td img
+{
+  width: 200px;
+}
+
+section img
+{
+  width: 250px;
+  height: 250px;
+}
+
+tr, td
+{
+  border: 3px solid red;
+  text-align: center;
+  width: 25%;
+}
+
+p.center
+{
+  text-align: center;
+}
+
+div.center
+{
+  text-align: center;
+}

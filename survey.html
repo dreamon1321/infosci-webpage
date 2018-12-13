@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<!--Andrea Michael
+    CS134 Final Project
+    Due 4/19/2018
+    SURVEY-->
+<head>
+  <title>Andrea's Dream Website!</title>
+  <meta name="description" content="CS134 Final Project" />
+  <meta name="keywords" content="xhtml, web design, final" />
+  <link rel="stylesheet" type="text/css" href="mystyle.css" />
+</head>
+
+<body>
+  <nav id="navMenu"></nav>
+  <h1>How did you like my website?</h1>
+
+  <!--Text boxes-->
+  <br/>
+  <form method="post" action="https://www.hashemian.com/tools/form-post-tester.php">
+    First Name&nbsp;<input type="text" name="firstNameBox" size="40" />
+    <br/><br/>
+    Last Name&nbsp;<input type="text" name="lastNameBox" size="40" />
+    <br/><br/>
+    Phone Number&nbsp;<input type="text" name="phoneBox" size="30" />
+    <br/><br/>
+
+    Which pages did you like or relate to the most? (Select all that apply)<br/>
+    <!--Checkboxes-->
+    <input type="checkbox" name="cbHome" />Home<br/>
+    <input type="checkbox" name="cbResume" />Resume<br/>
+    <input type="checkbox" name="cbDreamVacay" />Dream Vacation<br/>
+    <input type="checkbox" name="cbFavMusic" />Favorite Music<br/>
+    <input type="checkbox" name="cbFavMovie" />Favorite Movies<br/>
+    <input type="checkbox" name="cbSummer" />Summer Plans<br/>
+    <input type="checkbox" name="cbNextSem" />Next Semester<br/>
+    <input type="checkbox" name="cbSurvey" />Survey<br/>
+    <br/><br/>
+
+    Which of my pages was your favorite?<br/>
+    <!--Dropdown menu-->
+    <select name="FavPage" label="FavPage">
+      <option value=" ">Choose one...</option>
+      <option value="pHome">Home</option>
+      <option value="pResume">Resume</option>
+      <option value="pDreamVacay">Dream Vacation</option>
+      <option value="pFavMusic">Favorite Music</option>
+      <option value="pFavMovie">Favorite Movies</option>
+      <option value="pSummer">Summer Plans</option>
+      <option value="pNextSem">Next Semester</option>
+      <option value="pSurvey">This One! (Survey)</option>
+    </select><br/><br/>
+
+    Please leave an overall rating from 1 - 10!
+    (1 = I hated it! 10 = I loved it!)<br/>
+    <!--Radio Buttons-->
+    <input type="radio" name="rating" label="hate1" />
+        1 -- I hated it!<br/>
+    <input type="radio" name="rating" label="hate2" />
+        2<br/>
+    <input type="radio" name="rating" label="hate3" />
+        3<br/>
+    <input type="radio" name="rating" label="hate4" />
+        4<br/>
+    <input type="radio" name="rating" label="meh5" checked="checked"/>
+        5<br/>
+    <input type="radio" name="rating" label="meh6" />
+        6<br/>
+    <input type="radio" name="rating" label="like7" />
+        7<br/>
+    <input type="radio" name="rating" label="like8" />
+        8<br/>
+    <input type="radio" name="rating" label="like9" />
+        9<br/>
+    <input type="radio" name="rating" label="love10" />
+        10 -- I loved it!
+    <br/><br/>
+
+    Any other feedback or questions?<br/>
+    <!--Text Area-->
+    <textarea name="feedback" rows="15" cols="70">Ask questions or leave comments...</textarea><br/><br/>
+
+    <!--Submit & Reset buttons-->
+    <input type="submit" value="Send Now!" />&nbsp;&nbsp;&nbsp;
+    <input type="reset" value="Cancel Please!" />
+  </form>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
